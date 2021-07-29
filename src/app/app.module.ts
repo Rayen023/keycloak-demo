@@ -10,6 +10,7 @@ import { initializer } from 'src/utils/app-inits';
 import { AccessDeniedComponent } from './access-denied/access-denied.component';
 import { ManagerComponent } from './manager/manager.component';
 import { AdminComponent } from './admin/admin.component';
+import { UserComponent } from './user/user.component';
 
 
 
@@ -19,6 +20,7 @@ import { AdminComponent } from './admin/admin.component';
     AccessDeniedComponent,
     ManagerComponent,
     AdminComponent,
+    UserComponent,
   ],
   imports: [
     BrowserModule,
