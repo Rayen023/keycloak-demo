@@ -40,6 +40,7 @@ export function initializer(keycloak: KeycloakService): () => Promise<any> {
           bearerExcludedUrls: ['/assets', '/clients/public']
         })
         const keycloakAuth = keycloak.getKeycloakInstance();
+        keycloakAuth;
 
         keycloakAuth.updateToken(3000);
         
