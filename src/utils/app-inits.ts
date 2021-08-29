@@ -49,7 +49,7 @@ export function initializer(keycloak: KeycloakService): () => Promise<any> {
 
       
 
-
+        
         keycloakAuth.onTokenExpired = () => {
           if (keycloakAuth.refreshToken) {
             setTimeout(() => {

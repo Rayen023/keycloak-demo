@@ -12,4 +12,7 @@ export class AppComponent {
   logout() {
     this.keycloakService.logout();
   }
+  ManagedAccount() {
+    this.keycloakService.getKeycloakInstance().accountManagement();
+  }
 }
